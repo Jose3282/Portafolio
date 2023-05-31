@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50em;
+    height: 50em;
+    border: 2px solid brown;
+    position: relative;
+    top: 1em;
+    left: 25%;
+    transform: translate(-5%, -15%);
+    overflow: hidden;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.pelota {
+    width: 70px;
+    height: 70px;
+    background-color: #ff5733;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveBall 0s linear infinite;
+}
+
+@keyframes moveBall {
+    0% { 
+        left: calc(-200px)
+    }
+    100% {
+        left: calc(200px);
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.btn {
+    margin: 0 10px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
