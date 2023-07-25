@@ -1,0 +1,6 @@
+org\jose\api03\webapi02\models\EmployedModel.class
+org\jose\api03\webapi02\services\EmployedService.class
+org\jose\api03\webapi02\repositories\EmployedRepository.class
+org\jose\api03\webapi02\controllers\EmployedController.class
+org\jose\api03\webapi02\ServletInitializer.class
+org\jose\api03\webapi02\Webapi02Application.class
